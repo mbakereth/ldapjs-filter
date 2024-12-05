@@ -4,7 +4,7 @@
     "Mark Cavage <mcavage@gmail.com>",
     "Cody Peter Mello <cody.mello@joyent.com>"
   ],
-  "name": "@ldapjs/filter",
+  "name": "@mbakereth/ldapjs-filter",
   "homepage": "https://github.com/ldapjs/filter",
   "description": "API for handling LDAP-style filters",
   "version": "2.1.1",
@@ -18,13 +18,13 @@
     "lib": "./lib"
   },
   "dependencies": {
-    "@ldapjs/asn1": "2.0.0",
-    "@ldapjs/protocol": "^1.2.1",
+    "@mbakereth/ldapjs-asn1": "2.0.0",
+    "@mbakereth/ldapjs-protocol": "^1.2.1",
     "process-warning": "^2.1.0"
   },
   "devDependencies": {
     "@fastify/pre-commit": "^2.0.2",
-    "@ldapjs/attribute": "1.0.0-rc.5",
+    "@mbakereth/ldapjs-attribute": ">=1.0.0-rc.5",
     "eslint": "^8.34.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.27.5",
